@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         DatabaseReference myRef = database.getReference("s109999");
 
         //myRef.setValue("Hello, I am Jun Zhi");
-        myRef.child("name").setValue("commit2");
+        myRef.child("name").setValue("commitdemo");
         myRef.child("lat").setValue(24.778899);
         myRef.child("lng").setValue(120.44558899);
     }
